@@ -7,7 +7,7 @@ var FrutaSchema = Schema({
     nombre: String,
     color: String,
     temporada: Boolean
-    
+
 });
 
-module.exports = mongoose.model('fruta', FrutaSchema);
+module.exports = mongoose.model('Fruta', FrutaSchema);
